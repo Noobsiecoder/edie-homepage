@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon/devchallenges.png" type="image/x-icon">
+    <title>Edie Homepage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="bg-white">
+    <noscript>Please enable Javascript in your browser</noscript>
+    <div class="p-4 sm:p-6 md:p-10 lg:p-12 lg:-mt-3">
+        <header>
+            <nav class="flex justify-between items-center">
+                <span style="color: #333333" class="heebo-font text-2xl md:text-3xl lg:text-4xl"
+                    id="heading">Edie</span>
+                <button class="p-2 -mt-1 space-y-1 focus:outline-none sm:hidden grid grid-cols-1" id="disabled"
+                    onclick="button(); return false;">
+                    <span style="background: #333333; border-color: #333333;" class="w-8 h-1 border" id="bar-1"></span>
+                    <span style="background: #333333; border-color: #333333;" class="w-8 h-1 border" id="bar-2"></span>
+                    <span style="background: #333333; border-color: #333333;" class="w-8 h-1 border" id="bar-3"></span>
+                </button>
+                <div style="color: #454545" class="hidden sm:flex sm:space-x-8 poppins-500-fonts" id="navbar">
+                    <a class="block sm:opacity-100 transition duration-75 hover:text-black" href="#">Home</a>
+                    <a class="block opacity-60 sm:opacity-100 transition duration-75 hover:text-black"
+                        href="#">Services</a>
+                    <a class="block opacity-60 sm:opacity-100 transition duration-75 hover:text-black" href="#">Our
+                        Works</a>
+                    <a class="block opacity-60 sm:opacity-100 transition duration-75 hover:text-black"
+                        href="#">Clients</a>
+                    <a class="block opacity-60 sm:opacity-100 transition duration-75 hover:text-black"
+                        href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div class="mt-6" id="content">
+            <div class="p-4 lg:pt-12 lg:pl-44 poppins-500-fonts">
+                <span class="text-xs leading-5 text-blue-500 lg:text-lg">
+                    Unhappy with your website?
+                </span>
+                <span class="block text-2xl leading-9 lg:text-5xl lg:mt-6">
+                    We create beautiful
+                    <span class="block">and&nbsp;fast&nbsp;web&nbsp;services</span>
+                </span>
+            </div>
+            <div class="mt-4">
+                <img class="rounded-2xl" src="./assets/img/heroImage.jpg" alt="team">
+            </div>
+            <div class="p-4 lg:pt-12 lg:pl-44 poppins-500-fonts">
+                <div class="w-10/12 sm:w-6/12 md:w-5/12">
+                    <span class="block text-2xl leading-9 lg:text-5xl lg:mt-4">
+                        Story,&nbsp;emotion
+                        <span class="block">and&nbsp;purpose</span>
+                    </span>
+                    <div style="color: #4F4F4F" class="mt-4">
+                        <span class="poppins-400-fonts text-xs leading-5 lg:text-lg">
+                            We help transform your ideas into real&nbsp;world applications that will outperform your
+                            toughest competition and help you achieve your strategic goals in short period of time.
+                        </span>
+                        <span style="color:#828282; font-size: 0.625rem;" class="block mt-4 lg:mt-8 lg:text-sm">
+                            Want us to contact you?
+                        </span>
+                        <div>
+                            <form>
+                                <span class="lg:text-lg flex items-center">
+                                    <input style="color: #BDBDBD"
+                                        class="p-2 pl-4 mt-1 flex-grow bg-gray-50 w-full border border-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        type="email" name="email" placeholder="Email">
+                                    <button
+                                        class="-ml-16 mt-1 text-center h-8 w-14 bg-blue-500 text-white rounded-md transition duration-200 hover:bg-blue-600">
+                                        Join
+                                    </button>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-12 md:p-20">
+                <div class="poppins-500-fonts text-2xl lg:text-4xl">
+                    <span class="p-4">We offer high
+                        <span class="p-4 sm:block sm:-mt-3">demand&nbsp;services</span>
+                    </span>
+                    <div class="mt-6 sm:-mt-6 space-y-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-5">
+                        <div
+                            class="bg-white p-6 rounded-lg shadow-lg lg:shadow-sm lg:transition lg:duration-150 lg:hover:shadow-lg">
+                            <span class="bg-blue-500 p-4 pt-2 pb-2 rounded-xl">
+                                <span class="relative top-1 material-icons text-white text-2xl lg:text-3xl" hidden>
+                                    create
+                                </span>
+                            </span>
+                            <div class="mt-8 space-y-6 poppins-700-fonts">
+                                <span style="color: #333333;" class="text-xl">UI/UX Design</span>
+                                <span style="color: #4F4F4F" class="block poppins-400-fonts text-sm leading-6">Lorem
+                                    ipsum dolor sit&nbsp;amet,
+                                    consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+                                    turpis.
+                                </span>
+                                <button
+                                    class="p-3 text-white text-base bg-blue-500 rounded-xl transition duration-200 hover:bg-blue-600">Get
+                                    started
+                                </button>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white p-6 rounded-lg shadow-lg lg:shadow-sm lg:transition lg:duration-150 lg:hover:shadow-lg">
+                            <span class="bg-green-500 p-4 pt-2 pb-2 rounded-xl">
+                                <span class="relative top-1 material-icons text-white text-2xl lg:text-3xl" hidden>
+                                    code
+                                </span>
+                            </span>
+                            <div class="mt-8 space-y-6 poppins-700-fonts">
+                                <span style="color: #333333;" class="text-xl">Front End</span>
+                                <span style="color: #4F4F4F" class="block poppins-400-fonts text-sm leading-6">Lorem
+                                    ipsum dolor sit&nbsp;amet,
+                                    consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+                                    turpis.
+                                </span>
+                                <button
+                                    class="p-3 text-white text-base bg-green-500 rounded-xl transition duration-200 focus:outline-none hover:bg-green-600">Get
+                                    started
+                                </button>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white p-6 rounded-lg shadow-lg lg:shadow-sm lg:transition lg:duration-150 lg:hover:shadow-lg">
+                            <span class="bg-red-500 p-4 pt-2 pb-2 rounded-xl">
+                                <span class="relative top-1 material-icons text-white text-2xl lg:text-3xl" hidden>
+                                    storage
+                                </span>
+                            </span>
+                            <div class="mt-8 space-y-6 poppins-700-fonts">
+                                <span style="color: #333333;" class="text-xl">Back End</span>
+                                <span style="color: #4F4F4F" class="block poppins-400-fonts text-sm leading-6">Lorem
+                                    ipsum dolor sit&nbsp;amet,
+                                    consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+                                    turpis.
+                                </span>
+                                <button
+                                    class="p-3 text-white text-base bg-red-500 rounded-xl transition duration-200 hover:bg-red-600">Get
+                                    started
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 sm:pt-16 lg:mt-24 poppins-500-fonts">
+                    <div style="color: #333333;" class="text-2xl lg:text-4xl">
+                        Good&nbsp;design&nbsp;means <span class="sm:block">good&nbsp;business</span>
+                        <div class="mt-10 space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4">
+                            <div class="sm:pt-16 lg:pt-24">
+                                <img class="text-xs rounded-xl md:rounded-3xl" src="./assets/img/smarthome.jpg"
+                                    alt="smart-home-UI-design">
+                                <span style="color: #828282;" class="text-xs poppins-300-fonts">Full stack
+                                    application</span>
+                                <div style="color:#333333" class="-mt-1 block text-lg">Smart home dashboard
+                                </div>
+                            </div>
+                            <div>
+                                <img class="text-xs rounded-xl md:rounded-3xl" src="./assets/img/onboard.png"
+                                    alt="onboard-UI-design">
+                                <span style="color: #828282;" class="text-xs poppins-300-fonts">UX/UI design</span>
+                                <div style="color:#333333" class="-mt-1 block text-lg">Onboard application
+                                </div>
+                            </div>
+                            <div class="sm:pt-16 lg:pt-24">
+                                <img class="text-xs rounded-xl md:rounded-3xl" src="./assets/img/booking.png"
+                                    alt="onboard-UI-design">
+                                <span style="color: #828282;" class="text-xs poppins-300-fonts">Mobile
+                                    application</span>
+                                <div style="color:#333333" class="-mt-1 block text-lg">Booking system
+                                </div>
+                            </div>
+                            <div>
+                                <img class="text-xs rounded-xl md:rounded-3xl" src="./assets/img/juice-product.png"
+                                    alt="onboard-UI-design">
+                                <span style="color: #828282;" class="text-xs poppins-300-fonts">Front End
+                                    application</span>
+                                <div style="color:#333333" class="-mt-1 block text-lg">Juice product homepage
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="mt-4 md:mt-0 flex md:justify-between items-center md:float-right text-blue-500 space-x-1">
+                            <a href="#" class="text-base lg:text-2xl">see more</a>
+                            <span class="material-icons">
+                                arrow_right_alt
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-20 poppins-500-fonts space-y-2 sm:flex sm:justify-between sm:items-center sm:gap-36">
+                    <div>
+                        <span class="text-red-500 text-lg">Meet the team</span>
+                        <span class="block text-3xl">We&nbsp;are&nbsp;chilled<span class="block">and a laidback</span>
+                            <span class="block">team</span>
+                        </span>
+                        <div style="color: #4F4F4F;" class="mt-2 text-sm w-60 poppins-400-fonts">Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                    <div class="pt-6 flex justify-center items-center gap-2">
+                        <div>
+                            <img class="text-xs rounded-3xl poppins-300-fonts" src="./assets/img/person3.png"
+                                alt="person1">
+                        </div>
+                        <div class="grid grid-rows-2 gap-2">
+                            <div>
+                                <img class="text-xs rounded-3xl poppins-300-fonts" src="./assets/img/person1.png"
+                                    alt="person2">
+                            </div>
+                            <div>
+                                <img class="text-xs rounded-3xl poppins-300-fonts" src="./assets/img/person2.png"
+                                    alt="person3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-20 md:pt-24 md:w-9/12 text-2xl leading-8 md:leading-10">
+                    “Fast and outstanding results. Edie understands their customer’s needs. They have a young and
+                    talented team.”
+                </div>
+                <div class="pt-4 flex items-center space-x-4">
+                    <img class="text-xs w-1/5 md:w-1/12 rounded-lg poppins-300-fonts" src="./assets/img/person4.png"
+                        alt="Carlos Tran">
+                    <div class="space-y-3">
+                        <span style="color: #333333;" class="text-base">Carlos&nbsp;Tran</span>
+                        <span style="color: #828282;" class="block text-xs">The&nbsp;Decorate&nbsp;Gatsby</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inline" id="footer">
+        <div style="background: #100E1D;" class="mt-12 p-8 md:p-32 md:pt-6 md:pb-4 text-white">
+            <div class="space-y-9 sm:flex sm:justify-between sm:space-y-0">
+                <div class="poppins-300-fonts text-base space-y-2">
+                    <a class="block" href="#">Home</a>
+                    <a class="block" href="#">Services</a>
+                    <a class="block" href="#">Our
+                        Works</a>
+                    <a class="block" href="#">Clients</a>
+                    <a class="block" href="#">Contact</a>
+                </div>
+                <div class="space-y-2">
+                    <span class="heebo-font text-4xl">Edie</span>
+                    <div class="flex space-x-3">
+                        <img class="text-xs w-6 h-6" src="./assets/icon/instagram.svg" alt="Instagram logo">
+                        <img class="text-xs w-6 h-6" src="./assets/icon/linkedin.svg" alt="Linkedin logo">
+                        <img class="text-xs w-6 h-6" src="./assets/icon/twitter.svg" alt="Twitter logo">
+                    </div>
+                </div>
+                <div>
+                    <span style="color: #828282;" class="text-xs md:text-sm lg:text-base">Want us to contact you?</span>
+                    <form>
+                        <span class="lg:text-lg flex items-center">
+                            <input style="color: #BDBDBD"
+                                class="p-2 pl-4 mt-1 flex-grow bg-gray-50 w-full border border-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                type="email" name="email" placeholder="Email">
+                            <button
+                                class="-ml-16 mt-1 text-center h-8 w-14 bg-blue-500 text-white rounded-md transition duration-200 hover:bg-blue-600">
+                                Join
+                            </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <div class="pt-8 text-center text-sm footer-font"><a href="">NoobsieCoder@devChallenges.io</a></div>
+        </div>
+    </div>
+    <script src="./assets/js/menu.js"></script>
+</body>
+
+</html>
